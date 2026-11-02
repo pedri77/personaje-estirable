@@ -1,0 +1,118 @@
+{
+  "nombre": "Nora",
+  "handle": "@pedri77",
+  "saludo": "Hola, soy ",
+  "disco": "#0f8a7e",
+  "acento": "#ff8a5b",
+  "pagina": {
+    "menu": "Principal",
+    "modoOscuro": "Modo oscuro",
+    "animo": "Estado de ánimo",
+    "paciencia": "Paciencia",
+    "prensa": "Proyectos en GitHub",
+    "nota": [
+      "estírame",
+      "la cara"
+    ],
+    "ariaPersonaje": "Nora. Agarra y estira su cara para cambiarle la expresión."
+  },
+  "nav": [
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Diario",
+      "href": "#diario"
+    }
+  ],
+  "bio": [
+    "Dibujo gente con más pelo que paciencia.",
+    "Llevo nueve años diseñando personajes para series de animación y videojuegos, y un par de mascotas para marcas que prefieren no salir aquí.",
+    "Cada mes cuento cómo nace un personaje, del primer garabato al modelo final:"
+  ],
+  "suscripcion": {
+    "etiqueta": "Una vez al mes · un solo email",
+    "placeholder": "tu@email.com",
+    "boton": "Apuntarme →",
+    "respuesta": "Hecho. Nora acaba de poner los ojos en blanco."
+  },
+  "prensa": [
+    {
+      "name": "Mapa de la vivienda",
+      "font": "font-serif italic",
+      "href": "https://github.com/pedri77/mapa-vivienda-espana"
+    },
+    {
+      "name": "BOE RADAR",
+      "font": "font-wide tracking-[0.08em]",
+      "href": "https://github.com/pedri77/boe-radar"
+    },
+    {
+      "name": "tu bolsillo",
+      "font": "font-display font-black lowercase tracking-[-0.04em]",
+      "href": "https://github.com/pedri77/tu-bolsillo"
+    },
+    {
+      "name": "IA y empleo",
+      "font": "font-serif",
+      "href": "https://github.com/pedri77/ia-y-empleo"
+    },
+    {
+      "name": "EDR/VISUAL",
+      "font": "font-mono tracking-[0.04em]",
+      "href": "https://github.com/pedri77/edr-visual-app"
+    },
+    {
+      "name": "Prompt Universe",
+      "font": "font-display font-medium",
+      "href": "https://github.com/pedri77/iacademy-prompt-universe"
+    }
+  ],
+  "animos": {
+    "base": "tranquilo",
+    "l_left": "vigilándote",
+    "l_right": "vigilándote",
+    "x_cross": "desconfiado",
+    "x_tongue": "payaso",
+    "x_shock": "sobresaltado",
+    "x_laugh": "partiéndose de risa",
+    "x_skeptic": "nada convencido",
+    "x_whistle": "disimulando",
+    "x_smug": "chulito",
+    "x_dizzy": "viendo estrellitas",
+    "g_grimace": "estrujado",
+    "g_ouch": "¡AY!",
+    "g_squish": "pellizcado"
+  },
+  "rig": {
+    "disc": {
+      "x": 0.5,
+      "y": 0.58,
+      "r": 0.41
+    },
+    "nose": {
+      "x": 0.498,
+      "y": 0.541,
+      "r": 0.032
+    },
+    "cheeks": [
+      {
+        "x": 0.414,
+        "y": 0.54
+      },
+      {
+        "x": 0.586,
+        "y": 0.54
+      }
+    ],
+    "face": {
+      "x": 0.5,
+      "y": 0.51,
+      "rx": 0.138,
+      "ry": 0.164
+    },
+    "hairLine": 0.326,
+    "sides": 0.153
+  }
+}
