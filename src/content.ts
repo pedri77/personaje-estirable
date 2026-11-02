@@ -49,7 +49,8 @@ export type FaceKey = (typeof keys)[number];
  * load falls back to the base face (a missing grab face falls back to g_grimace).
  */
 export const faces = Object.fromEntries(
-  keys.map((k) => [k, {src: `/faces/${k}.webp`, mood: (datos.animos as Record<FaceKey, string>)[k]}]),
+  // BASE_URL keeps the paths right when the site is served from a sub-path (GitHub Pages: /<repo>/).
+  keys.map((k) => [k, {src: `${import.meta.env.BASE_URL}faces/${k}.webp`, mood: (datos.animos as Record<FaceKey, string>)[k]}]),
 ) as Record<FaceKey, {src: string; mood: string}>;
 
 /** Faces dealt at random when a stretch is let go. */
